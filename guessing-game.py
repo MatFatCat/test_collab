@@ -14,3 +14,7 @@ if out_of_guesses:
     print("out of guess,you lost")
 else:
     print("you win!")
+
+
+def hello():
+    print("hello")
