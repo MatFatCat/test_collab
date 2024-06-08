@@ -54,3 +54,10 @@ def main():
         else:
             print("Invalid choice. Please choose again.")
 
+
+
+def factorial(val):
+    if val == 1:
+        return val
+    else:
+        return val * factorial(val - 1)
