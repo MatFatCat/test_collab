@@ -23,10 +23,13 @@ def hello():
 def new_feature_function():
     pass
     # some logic here
+
+
 def display_menu():
     print("Welcome to the Guessing Game!")
     print("1. Start Game")
     print("2. exit Game")
+
 
 def start_game():
     global guess, guess_count, out_of_guesses  # Use global to modify the variables outside the function
@@ -40,6 +43,7 @@ def start_game():
         print("Out of guesses, you lost!")
     else:
         print("You win!")
+
 
 def main():
     while True:
@@ -55,9 +59,10 @@ def main():
             print("Invalid choice. Please choose again.")
 
 
-
 def factorial(val):
     if val == 1:
         return val
     else:
         return val * factorial(val - 1)
+
+# this is just for your conflict!
