@@ -23,3 +23,10 @@ def hello():
 def new_feature_function():
     pass
     # some logic here
+
+
+def factorial(val):
+    if val == 1:
+        return val
+    else:
+        return val * factorial(val - 1)
