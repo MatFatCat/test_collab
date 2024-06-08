@@ -6,6 +6,28 @@ out_of_guesses = False
 win_count = 0
 loss_count = 0
 
+
+while guess != secret_word and not out_of_guesses:
+    if guess_count < guess_limit:
+        guess = input("Enter guess:")
+        guess_count += 1
+    else:
+        out_of_guesses = True
+if out_of_guesses:
+    print("out of guess,you lost")
+else:
+    print("you win!")
+
+
+def hello():
+    print("hello")
+
+
+def new_feature_function():
+    pass
+    # some logic here
+
+
 def display_menu():
     print("Welcome to the Guessing Game!")
     print("1. Start Game")
@@ -62,6 +84,8 @@ def factorial(val):
         return val
     else:
         return val * factorial(val - 1)
+
+# this is just for your conflict!
 
 if __name__ == "__main__":
     main()
