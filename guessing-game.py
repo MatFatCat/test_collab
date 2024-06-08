@@ -18,3 +18,8 @@ else:
 
 def hello():
     print("hello")
+
+
+def new_feature_function():
+    pass
+    # some logic here
